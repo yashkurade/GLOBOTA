@@ -32,7 +32,7 @@ The result is a lightweight, reliable, and secure method to update firmware over
 
 ---
 
-## 🔧 How It Works
+## How It Works
 
 1. You first flash the **master.ino** using USB.  
    This firmware:
@@ -44,7 +44,7 @@ The result is a lightweight, reliable, and secure method to update firmware over
 
 3. To upload firmware the second time (and every future time):
 
-   ### Use the provided `template.ino`
+   ### Use the provided **template.ino**
    - Always base your project on `template.ino` (the OTA-safe template).
    - Make sure `template.ino` contains these lines (do **not** remove them):
      ```cpp
@@ -84,7 +84,7 @@ The result is a lightweight, reliable, and secure method to update firmware over
 
 ---
 
-## 🔐 Security Notes (Important)
+## Security Notes (Important)
 
 Using OTA over the public internet introduces risks.  
 To maintain safe operation:
@@ -99,6 +99,7 @@ To maintain safe operation:
 This project is for **learning and experimentation**, not commercial deployments.
 
 ---
+
 
 
 
